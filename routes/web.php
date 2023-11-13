@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [CustomerProductController::class, 'index']);
+Route::get('fetch-customer-products', [CustomerProductController::class, 'fetchCustomerProducts']);
