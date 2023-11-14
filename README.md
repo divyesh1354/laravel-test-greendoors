@@ -27,6 +27,12 @@ Compile your assets.
 npm run dev
 ```
 
+Run project migrations and seeders.
+```
+php artisan migrate
+php artisan db:seed
+```
+
 ## Test Laravel Controller REST APIs
 
 I also implemented test cases for this assignments. I have used PHPUnit for unit/feature testing.
@@ -41,5 +47,9 @@ Run the development server:
 ```
 php artisan serve
 ```
+
+After running project it is something looks like
+
+![home](https://github.com/divyesh1354/laravel-test-greendoors/blob/main/images/listing_home.png?raw=true)
 
 Thank you and I hope you will like it!
