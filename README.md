@@ -7,7 +7,7 @@ Install composer dependency.
 composer install
 ```
 
-Copy .env.example file and set environment variable accordingly.
+Copy the .env.example file and set the environment variable accordingly.
 ```
 copy .env.example .env
 ```
@@ -35,9 +35,9 @@ php artisan db:seed
 
 ## Test Laravel Controller REST APIs
 
-I also implemented test cases for this assignments. I have used PHPUnit for unit/feature testing.
+I also implemented test cases for this assignment. I have used PHPUnit for unit/feature testing.
 
-To run laravel tests, use this command:
+To run Laravel tests, use this command:
 
 ```
 ./vendor/bin/phpunit
@@ -48,8 +48,8 @@ Run the development server:
 php artisan serve
 ```
 
-After running project it is something looks like
+After running the project it is something looks like
 
-![home](https://github.com/divyesh1354/laravel-test-greendoors/blob/main/images/listing_home.png?raw=true)
+![plot](./public/images/listing_home.png)
 
 Thank you and I hope you will like it!
